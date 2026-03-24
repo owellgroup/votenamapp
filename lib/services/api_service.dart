@@ -5,7 +5,8 @@ import '../models/candidate.dart';
 import '../models/region.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://vote.owellgraphics.com';
+  //static const String baseUrl = 'https://vote.owellgraphics.com';
+  static const String baseUrl = 'http://localhost:8484';
 
   // Get all vote categories
   static Future<List<VoteCategory>> getVoteCategories() async {
