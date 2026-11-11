@@ -5,7 +5,7 @@ import '../models/candidate.dart';
 import '../models/region.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://vote.owellgraphics.com';
+  static const String baseUrl = 'https://vote.wayaspot.com';
   //static const String baseUrl = 'http://localhost:8484';
 
   // Get all vote categories
